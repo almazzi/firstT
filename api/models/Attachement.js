@@ -8,8 +8,8 @@
 module.exports = {
 
   attributes: {
-    type:'STRING',
-    source:'STRING'
+    type:'string',
+    source:'string'
   }
 };
 

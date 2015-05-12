@@ -8,10 +8,10 @@
 module.exports = {
 
   attributes: {
-title:'STRING',
-    active:'BOOLEAN',
-    description:'STRING',
-    parent:'STRING'
+    title:'string',
+    active:'boolean',
+    description:'string',
+    parent:'string'
   }
 };
 

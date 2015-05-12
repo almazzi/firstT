@@ -8,16 +8,16 @@
 module.exports = {
 
   attributes: {
-  title:'STRING',
-  content:'STRING',
-    preview:'STRING',
+    title:'string',
+    content:'string',
+    preview:'string',
     category: {
-      collection:'articleCategory'
+      model:'ArticleCategory'
     },
-    author:'STRING',
-    published:'DATE',
-    cover:'STRING',
-    tags:'STRING'
+    author:'string',
+    published:'date',
+    cover:'string',
+    tags:'string'
   }
 };
 
