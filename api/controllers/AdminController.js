@@ -6,6 +6,14 @@
  */
 
 module.exports = {
-	list:function
-};
+  list: function (req, res) {
+    Article.find().exec(function(err, result){
+      if(err) return res.sendError(err);
+      return res.view({
+        articles: result
+      });
+    });
+  }
+
+}
 

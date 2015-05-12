@@ -1,0 +1,11 @@
+<ul>
+  <% for(var i=0; i<articles.length; i++) {%>
+  <li><%= articles[i].title %>
+    <ul>
+      <% for(var attri in articles[i]) {%>
+      <li><%= attri %></li>
+      <% } %>
+    </ul>
+  </li>
+  <% } %>
+</ul>
