@@ -8,7 +8,7 @@
 module.exports = {
 
   attributes: {
-type:'STRING',
+    type:'STRING',
     source:'STRING'
   }
 };
